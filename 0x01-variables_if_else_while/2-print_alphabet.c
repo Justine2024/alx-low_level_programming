@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - prints alphabetics
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	int ch='a';
-	while (ch <='z')
-	{
-		putchar(ch);
-		ch++;
-	} 
-	putchar ('\n');
+	char d;
+
+	for (d = 'a'; d <= 'z'; d++)
+	putchar(d);
+	putchar('\n');
 	return (0);
 }
-
-
-
